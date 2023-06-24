@@ -1,3 +1,5 @@
 # volvetcode.github.io
 
-github.io test
+This is an educational project.
+
+I studied HTML to make this website with https://github.com/denysdovhan/learnyouhtml
