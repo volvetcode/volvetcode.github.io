@@ -4,3 +4,10 @@ h3 {
     стиль заголовков статей. 1.75*16=28px
     */
 }
+
+.profile-pic {
+    margin-right: 0.875rem;
+    margin-bottom: 0;
+    width: 3.5rem;
+    border-radius: 50%;
+}
