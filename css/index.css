@@ -5,9 +5,7 @@ html {
 }
 
 body.dark {
-    /* задаем цвет задника */
     background-color: #282c35;
-    /* задаем цвет текста */
     color: #fff;
 }
 
