@@ -9,14 +9,6 @@ body.dark {
     color: #fff;
 }
 
-h1 {
-    font-size: 2rem;
-    line-height: 2.626rem;
-    color: inherit;
-    margin-bottom: 0;
-    margin-top:0;
-}
-
 .profile-container {
     /* выставляем элементы в профиле в строку */
     display: flex;
@@ -32,9 +24,21 @@ h1 {
     border-radius: 50%;
 }
 
+h1 {
+    font-size: 2rem;
+    line-height: 2.626rem;
+    color: inherit;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1.75rem;
+}
+
+a {
+    color: #ffa7c4
 }
 
 h3 {
