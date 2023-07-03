@@ -4,6 +4,13 @@ html {
     line-height: 1.75;
 }
 
+body.dark {
+    /* задаем цвет задника */
+    background-color: #282c35;
+    /* задаем цвет текста */
+    color: #fff;
+}
+
 h1 {
     font-size:1.988.18rem;
     line-height: 2.626rem;
