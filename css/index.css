@@ -11,17 +11,25 @@ h1 {
     margin-top:0;
 }
 
-h3 {
-    font-size: 1.75rem;
-    margin-bottom: 0,4375rem;
-    /* 
-    стиль заголовков статей. 1.75*16=28px
-    */
+.profile-container {
+    /* выставляем элементы в профиле в строку */
+    display: flex;
+    /* отделяем контейнер от основного контента снизу */
+    margin-bottom:  3.5rem;
 }
 
 .profile-pic {
     margin-right: 0.875rem;
     margin-bottom: 0;
     width: 3.5rem;
+    heighT: 3.5rem;
     border-radius: 50%;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0,4375rem;
+    /* 
+    стиль заголовков статей. 1.75*16=28px
+    */
 }
