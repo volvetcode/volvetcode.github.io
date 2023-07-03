@@ -31,6 +31,11 @@ h1 {
     border-radius: 50%;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 1.75rem;
+}
+
 h3 {
     font-size: 1.75rem;
     margin-bottom: 0,4375rem;
