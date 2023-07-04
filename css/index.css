@@ -34,10 +34,11 @@ body.dark {
     border-radius: 50%;
 }
 
-h1 {
-    font-size: 32px;
+.title {
+    box-shadow: none;
+    text-decoration: none;
     line-height: 2.625rem;
-    color: inherit;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 2.625;
     margin-top:0;
