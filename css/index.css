@@ -6,7 +6,8 @@ html {
 
 body.dark {
     background-color: #282c35;
-    color: #fff;
+    margin: 0;
+    color: #f5f6f7;
 }
 
 .wrapper {
