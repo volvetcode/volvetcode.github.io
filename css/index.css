@@ -78,8 +78,14 @@ h3 {
     font-size: 1.75rem;
     margin-bottom: 0.4375rem;
     font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.1;
     /* 
     стиль заголовков статей. 1.75*16=28px
     изменил чтобы апдейтнулось гитхаб айо
     */
+}
+
+.article-title {
+    text-decoration: none;
 }

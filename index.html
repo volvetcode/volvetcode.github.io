@@ -1,69 +1,71 @@
 <!DOCTYPE html> <!-- decalares html type. just html means the latest version of it -->
 <html lang="en">
-    <head>
-        <!-- charset - штука про набор знаков. какие-то есть какие-то нет. -->
-        <!-- если ничего особенного, то utf-8 как стандартный берем-->
-        <meta charset="utf-8">
-        <!-- x-ua-compatible это штука специально для internet explorer. -->
-        <!-- я так и не понял зачем. что-то про тип файла для говна этого -->
-        <meta http-equiv="x-ua-compatible" content="ie=edge"> 
-        <!-- viewport это штука которая помогает адаптировать вывод под разные экраны -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- заголовок на вкладке или в поиске-->
-        <title>Volvet's Website</title>
-        <!-- описание. видно в браузере под заголовком -->
-        <meta name="description" content="Personal blog by Antonov Savely. I show my path as a programmer">
-        <!-- фавиконка которая отображается на вкладке. нужно добавить больше размеров -->
-        <link rel="icon" href="/img/favicon-32x32.png">
-        <!-- подключение стилей из отдельного файла -->
-        <link rel="stylesheet" href="/css/index.css">
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7NCYLZFBM"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<head>
+    <!-- charset - штука про набор знаков. какие-то есть какие-то нет. -->
+    <!-- если ничего особенного, то utf-8 как стандартный берем-->
+    <meta charset="utf-8">
+    <!-- x-ua-compatible это штука специально для internet explorer. -->
+    <!-- я так и не понял зачем. что-то про тип файла для говна этого -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+    <!-- viewport это штука которая помогает адаптировать вывод под разные экраны -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- заголовок на вкладке или в поиске-->
+    <title>Volvet's Website</title>
+    <!-- описание. видно в браузере под заголовком -->
+    <meta name="description" content="Personal blog by Antonov Savely. I show my path as a programmer">
+    <!-- фавиконка которая отображается на вкладке. нужно добавить больше размеров -->
+    <link rel="icon" href="/img/favicon-32x32.png">
+    <!-- подключение стилей из отдельного файла -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X7NCYLZFBM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-            gtag('config', 'G-X7NCYLZFBM');
-        </script>
-        <!-- Montserrat -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
-    </head>
-    <body class="dark">
-        <div class="wrapper">
-            <header>
-                <h1>
-                    <a class="title" aria-hidden="true" href="/index.html">
-                        <p>Volvet<span id="logo">Code</span></p>
-                    </a>
-                </h1>
-            </header>
-            <aside>
-                <div class="profile-container">
-                    <img class="profile-pic" src="/img/profile-pic.jpg" alt="Savely Antonov">
-                    <p style="max-width: 310px;">
-                        Personal blog by
-                    <a href="https://github.com/volvetcode">Savely Antonov</a>.<br>
-                       I explain with words and code.</p>
-                </div>
-            </aside>
-            <main>
-                <article>
-                    <h3>
-                        <a href="/how-do-you-make-personal-blog-using-only-html">How do you make personal blog using only HTML?</a>
-                    </h3>
-                    <small>
-                        "June 25, 2023"
-                        "• ☕️5 min to read"
-                    </small>
-                    <p>Just made this website. See how I did it</p>
-                </article>
-            </main>
-            <footer>
-                <a href="https://github.com/volvetcode">github</a>
-            </footer>
-        </div>
-    </body>
+        gtag('config', 'G-X7NCYLZFBM');
+    </script>
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+    <div class="wrapper">
+        <header>
+            <h1>
+                <a class="title" aria-hidden="true" href="/index.html">
+                    <p>Volvet<span id="logo">Code</span></p>
+                </a>
+            </h1>
+        </header>
+        <aside>
+            <div class="profile-container">
+                <img class="profile-pic" src="/img/profile-pic.jpg" alt="Savely Antonov">
+                <p style="max-width: 310px;">
+                    Personal blog by
+                <a href="https://github.com/volvetcode">Savely Antonov</a>.<br>
+                    I explain with words and code.</p>
+            </div>
+        </aside>
+        <main>
+            <article>
+                <header>
+                <h3>
+                    <a class="article-title" href="/simple-html-css-website">Simple HTML/CSS website</a>
+                </h3>
+                <small>
+                    June 25, 2023
+                    • ☕️5 min to read
+                </small>
+                </header>
+                <p>Just made this website. See how I did it</p>
+            </article>
+        </main>
+        <footer>
+            <a href="https://github.com/volvetcode">github</a>
+        </footer>
+    </div>
+</body>
 </html>
