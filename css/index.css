@@ -43,7 +43,6 @@ h1 {
 .profile-container {
     /* выставляем элементы в профиле в строку */
     display: flex;
-    padding-right: 100px;
     /* отделяем контейнер от основного контента снизу */
     margin-bottom:  3.5rem;
 }
