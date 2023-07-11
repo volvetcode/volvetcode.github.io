@@ -1,5 +1,5 @@
 # volvetcode.github.io
 
-This is an educational project.
+Trying to copy Dan's website - overreacted.io.
 
-I studied HTML to make this website with https://github.com/denysdovhan/learnyouhtml
+I studied HTML/CSS to copy this with freecodecamp.
