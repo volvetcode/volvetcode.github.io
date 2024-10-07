@@ -37,3 +37,7 @@ a:hover {
     cursor: pointer;
     text-decoration: none;
 }
+
+img {
+    margin: 1em 40px;
+}
